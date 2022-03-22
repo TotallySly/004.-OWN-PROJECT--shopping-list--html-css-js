@@ -4,6 +4,7 @@ const reset = document.querySelector('.reset')
 
 btns.forEach((btn, i) => {
     btn.addEventListener('click', () => {
+        console.log('TEST')
         shoppingItems[i].classList.toggle('line--through')
     })
 })
