@@ -8,7 +8,7 @@ body {
 .paper {
     position: absolute;
     height: 90vh; /* EDIT THESE FOR PAPER SIZE */
-    width: 50vw;
+    width: 70%;
     background: rgba(255, 255, 255, 0.9);
     margin: -275px -225px;
     left: 50%;
