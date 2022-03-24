@@ -10,6 +10,13 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 
+    btns.forEach((btn, i) => {
+        btn.addEventListener('touch', () => {
+            console.log('TEST')
+            shoppingItems[i].classList.toggle('line--through')
+        })
+    })
+
     reset.addEventListener('click', () => {
         for (let i = 0; i < shoppingItems.length; i++) {
             shoppingItems[i].classList.remove('line--through')
