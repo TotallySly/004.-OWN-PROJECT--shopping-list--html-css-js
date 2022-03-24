@@ -21,23 +21,7 @@ main {
     display: flex;
 }
 
-.fruit--veg--container {
-    border: solid 1px;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    margin: 2rem;
-}
-
-.tinned--goods--container {
-    border: solid 1px;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    margin: 2rem;
-}
-
-.frozen--goods--container {
+.container--sizing {
     border: solid 1px;
     display: flex;
     flex-direction: column;
@@ -47,7 +31,14 @@ main {
 
 button {
     padding: 1rem;
-    display: inline;
+    margin-right: 1rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.align--center {
+    display: flex;
+    align-items: center;
 }
 
 .line--through {
