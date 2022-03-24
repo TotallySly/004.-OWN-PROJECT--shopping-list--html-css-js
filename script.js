@@ -4,11 +4,9 @@ const reset = document.querySelector('.reset')
 
 document.addEventListener('touchstart', () => console.log('touch called'))
 
-btns.forEach((btn, i) => {
-    document.addEventListener('touchstart', () => {
-        console.log('TEST')
-        shoppingItems[i].classList.toggle('line--through')
-    })
+document.querySelector('body').addEventListener('click', (e) => {
+    console.log('clicked ', e)
+    // oh yeah, I'm good!
 })
 
 btns.forEach((btn, i) => {
