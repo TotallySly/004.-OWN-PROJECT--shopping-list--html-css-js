@@ -41,6 +41,10 @@ button {
     align-items: center;
 }
 
+span {
+    cursor: pointer;
+}
+
 .line--through {
     text-decoration: line-through wavy red;
 }
