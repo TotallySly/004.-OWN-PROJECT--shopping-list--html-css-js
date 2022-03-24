@@ -2,10 +2,52 @@
 
 :root {
     font-family: 'Indie Flower', cursive;
+    font-size: 62.5%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main {
+    font-size: 2rem;
+}
+
+.heading--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overall--container {
+    display: flex;
+}
+
+.fruit--veg--container {
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 2rem;
+}
+
+.tinned--goods--container {
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 2rem;
+}
+
+.frozen--goods--container {
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 2rem;
 }
 
 button {
     padding: 1rem;
+    display: inline;
 }
 
 .line--through {
