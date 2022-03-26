@@ -15,6 +15,11 @@ inputs.forEach((input, i) => {
     })
 })
 
+function init() {
+    let el = document.getElementById('target1')
+    el.ontouchstart = startTouch
+}
+
 //btns.forEach((btn, i) => {
 //   btn.addEventListener('click', () => {
 //       shoppingItems[i].classList.toggle('line--through')
