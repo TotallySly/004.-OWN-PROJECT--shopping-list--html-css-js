@@ -9,6 +9,12 @@ inputs.forEach((input, i) => {
     })
 })
 
+inputs.forEach((input, i) => {
+    input.addEventListener('touch', () => {
+        shoppingItems[i].classList.toggle('line--through')
+    })
+})
+
 //btns.forEach((btn, i) => {
 //   btn.addEventListener('click', () => {
 //       shoppingItems[i].classList.toggle('line--through')
