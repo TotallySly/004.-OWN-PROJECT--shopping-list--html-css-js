@@ -10,15 +10,10 @@ inputs.forEach((input, i) => {
 })
 
 inputs.forEach((input, i) => {
-    input.addEventListener('touch', () => {
+    input.addEventListener('touchstart', () => {
         shoppingItems[i].classList.toggle('line--through')
     })
 })
-
-function init() {
-    let el = document.getElementById('target1')
-    el.ontouchstart = startTouch
-}
 
 //btns.forEach((btn, i) => {
 //   btn.addEventListener('click', () => {
