@@ -49,7 +49,13 @@ span {
 .line--through {
     text-decoration: line-through wavy red;
     -webkit-text-decoration: line-through wavy red;
+    animation: slide 0.5s forwards;
+    -webkit-animation: slide 0.5s forwards;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
 }
+
+
 
 /* input:checked + label {
     text-decoration: line-through wavy red;
