@@ -9,10 +9,8 @@ inputs.forEach((input, i) => {
     })
 })
 
-inputs.forEach((input, i) => {
-    input.addEventListener('touchstart', () => {
-        shoppingItems[i].classList.toggle('line--through')
-    })
+inputs.addEventListener('change', () => {
+    shoppingItems[i].classList.toggle('line--through')
 })
 
 //btns.forEach((btn, i) => {
