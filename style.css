@@ -29,22 +29,11 @@ main {
     margin: 2rem;
 }
 
-button {
-    padding: 1rem;
-    margin-right: 1rem;
-    margin-left: 0.2rem;
-    margin-bottom: 0.2rem;
-    cursor: pointer;
-}
-
 .align--center {
     display: flex;
     align-items: center;
 }
 
-span {
-    cursor: pointer;
-}
 
 .line--through {
     text-decoration: line-through wavy red;
