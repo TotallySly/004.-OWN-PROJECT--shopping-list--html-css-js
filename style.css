@@ -46,6 +46,6 @@ span {
     cursor: pointer;
 }
 
-.line--through {
+input:checked + label {
     text-decoration: line-through wavy red;
 }
