@@ -46,7 +46,12 @@ span {
     cursor: pointer;
 }
 
-input:checked + label {
+.line--through {
+    text-decoration: line-through wavy red;
+    -webkit-text-decoration: line-through wavy red;
+}
+
+/* input:checked + label {
     text-decoration: line-through wavy red;
     -webkit-text-decoration: line-through wavy red;
 }
