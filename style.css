@@ -48,4 +48,5 @@ span {
 
 input:checked + label {
     text-decoration: line-through wavy red;
+    -webkit-text-decoration: line-through wavy red;
 }
